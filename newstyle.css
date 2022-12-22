@@ -69,7 +69,7 @@ ul li a {
 
 .img {
     position: absolute;
-    margin: 8% 35%;
+    margin: 8% 34%;
     
     border-radius: 10px;
     opacity: 0.8;
@@ -191,8 +191,7 @@ a {
     font-size: 30px;
 }
 
-.content a:hover {
-    color: rgb(0, 0, 0);   
+.content a:hover {  
     transition: all 0.5s;
 }
 
@@ -236,7 +235,7 @@ h1.box-glass2 {
     text-align: center;
     padding: 100px;
     display: flex;
-    scrollbar-3dlight-color: turquoise;
+    
 }
 
 .overlay:target {
