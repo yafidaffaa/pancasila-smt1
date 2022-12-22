@@ -116,7 +116,7 @@ h3 {
     align-items: center;
     justify-content: center;    
     top: 30%;
-    left: 15%;
+    left: 5%;
 }
 
 .up {
@@ -127,7 +127,7 @@ h3 {
 
 
 .down {
-    margin-left: 190px;
+    margin-left: 195px;
 }
 
 .gallery li a:hover {
