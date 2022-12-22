@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css2/family=Patrick+Hand&display=swap');
+*, html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+/*---Navbar---*/
+
+nav{
+    position: relative;
+    width: 170px;
+    height: 80px;
+    background: #080e2b;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 1px solid #060a1f;
+    transition: all 0.4s;
+    overflow: hidden;
+}
+nav:before{
+    content: "MENU";
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    line-height: 80px;
+    background: #080e2b;
+    color: #a9b5ef;
+    font-size: 30px;
+    font-weight: 800;
+    z-index: 11;
+    transition: all 0.3s;
+}
+nav ul{
+    display: flex;
+    line-height: 80px;
+    list-style: none;
+    align-content: center;
+    justify-content: center;
+}
+ul li a{
+    color: #a9b5ef;
+    font-size: 24px;
+    text-decoration: none;
+    margin: 0 -50px;
+    /*margin:0 10px;
+    padding:10px 15px;*/
+    border-radius: 5px;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.4s;
+}
+li a.active
+li a:hover{
+    background: #0c1540;
+}
+nav._expand{
+    width: 730px;
+}
+nav._expand:before{
+    opacity: 0;
+    pointer-events: none;
+}
+nav._expand ul li a 
+{
+    margin: 0 10px;
+    padding: 10px 15px;
+    opacity: 1;
+    pointer-event
+}
+/*---HOME---*/
+
+section {
+    height: 100vh;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    background-color: aqua;
+}
+
+
+.judul {
+    font-size: 300%;
+    font-family: cursive;
+    margin-left: -15%;
+    
+}
+
+.navigation {
+    list-style-type: none;
+    
+    
+}
+
+li {
+    display: inline-block;
+    margin-right: 30px;
+    
+}
+
+ul li a {
+    text-decoration: none;
+    color: #ccc;
+    font-size: 20px;
+    font-family: 'Patrick Hand' , cursive;
+}
+
+.navigation li a:hover {
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    color: red;
+    transition: all 0.25s;
+}
+
+.img {
+    position: static;
+    margin-top: 8%;
+    margin-left: 24%;
+    box-shadow: 8px 8px 10px 10px rgb(0,0,0,.5);
+    border-radius: 10px;
+}
+
+.nama {
+    position: static;
+    margin-top: 2%;
+    margin-left: 40%;
+}
+
+
+/*---TEAM---*/
+
+
+.Team {
+    width: 1000px;
+    background-color: rgb(255, 255, 255);
+    margin: 5% 14%;
+    padding: 20px;
+    box-shadow: 10px 10px 5px 5px rgba(0,0,0,.5);
+    border-radius: 5px;
+}
+
+.gallery li {
+    width: 267px;
+    height: 200px;
+    border-radius: 20%;
+    overflow: hidden;
+    border: 5px solid #666;
+    left: 50px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+.gallery li img {
+    border-radius: 20%;
+    size: 50%;
+    
+}
+
+.up {
+    margin-left: 50px;
+}
+
+.down {
+    margin-left: 220px;
+}
+
+a:hover {
+    color: rgba(0, 255, 255, 0);
+}
+
+.gallery li span {
+    display: inline-block;
+    width: 120px;
+    height: 30px;
+    margin-left:65px;    
+}
+
+.container1 {
+    background-color: rgb(200, 30, 30);
+    padding: 100px;
+    width: 100%;
+}
+
+/*---CONTENT---*/
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    background-image: url(/bali-sakura.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0px 40px;
+}
+ 
+
+.box-glass1{
+    position: relative;
+    height: 800px;
+    width: 500px;
+    background: #ffffff36;
+    backdrop-filter: blur(6px);
+    border-radius: 20px;
+    box-shadow: 2px 2px 11px 0px #000000bd;
+}
+
+.box-glass2{
+    position: relative;
+    height: 800px;
+    width: 500px;
+    background: #ffffff36;
+    backdrop-filter: blur(6px);
+    border-radius: 20px;
+    box-shadow: 2px 2px 11px 0px #000000bd;
+}
+
+.box-glass3{
+    position: relative;
+    height: 800px;
+    width: 500px;
+    background: #ffffff36;
+    backdrop-filter: blur(6px);
+    border-radius: 20px;
+    box-shadow: 2px 2px 11px 0px #000000bd;
+}
+
+.content >
+.content h1 {
+    font-size: 300px;
+}
+/*---FOOTER---*/
+
+footer {
+    color: white;
+    background-color: black;
+    width: 100%;
+}
+
+footer h4 {
+    text-align: center;
+    padding: 5px;
+}
+
+
+
+
+
+
+
+
+
