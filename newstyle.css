@@ -86,6 +86,47 @@ ul li a {
 }
 
 
+@media screen and (max-width: 600px) {
+    .home {
+        position: fixed;
+        display: block;
+        
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .judul {
+        
+        font-size: 30px;
+        
+    }
+}
+
+@media screen and (max-width: 600px) {
+    ul li a {
+        color: rgba(255, 255, 255, 0.848);
+        margin-left: 1111%;
+        
+    }
+}
+
+
+
+@media screen and (max-width: 600px) {
+    .img {
+        top: 10%;
+        left: -30%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .nama {
+        top: 55%;
+        left: -30%;
+    }
+}
+
+
 /*---TEAM---*/
 
 
@@ -136,9 +177,6 @@ h3 {
 }
 
 
-
-
-
 .container1 {
     background-image:linear-gradient(rgb(92, 103, 216),rgb(107, 107, 198),rgb(72, 58, 58));
     background-size:cover;
@@ -148,6 +186,58 @@ h3 {
     height: 100%;
     
 }
+
+@media screen and (max-width: 600px) {
+    .Team {
+        display: block;
+        width: 100px;
+        height: 100px;
+        padding-left: -40%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .gallery {
+        position: relative;
+        width: 100px;
+        height: 100px;
+        padding-left: -40%;
+    }
+}
+@media screen and (max-width: 600px) {
+    .up {
+        position: absolute;
+        
+        margin-top: -80%;
+        margin-left: -150%;
+        padding: 0;
+        width: 100px;
+        height: 100px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .down {
+        position: absolute;
+        
+        margin-top: -80%;
+        margin-left: 110%;
+        padding: 0;
+        width: 10%;
+        height: 10%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .gallery li {
+        width: 200px;
+        height: 200px;
+        
+    }
+}
+
+
+
 
 /*---CONTENT---*/
 
@@ -216,6 +306,33 @@ a {
 
 h1.box-glass2 {
     padding-top: 100px;
+}
+
+@media screen and (max-width: 600px) {
+    .content {
+        display: block;
+        
+        
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .box-glass1 {
+        height: 300px;
+        width: 300px;
+        margin-bottom: 5%;
+        margin-top: 20%;
+        margin-left: 22%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .box-glass2 {
+        height: 300px;
+        width: 300px;
+        margin-top:5%;
+        margin-left: 22%;
+    }
 }
 
 
@@ -345,6 +462,21 @@ h1.box-glass2 {
     animation: close .5s .5s forwards;
 }
 
+@media screen and (max-width: 600px){
+    .overlay img {
+        width: 80%;
+        height:50%;
+        margin-left: 10%;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .overlay1 img {
+        width: 90%;
+        height:50%;
+        margin-left: 10%;
+    }
+}
 
 
 /*animasi*/
@@ -374,15 +506,6 @@ h1.box-glass2 {
 }
 
 
-
-
-
-
-
-
-
-
-
 /*---FOOTER---*/
 
 footer {
@@ -395,7 +518,6 @@ footer h4 {
     text-align: center;
     padding: 5px;
 }
-
 
 
 
