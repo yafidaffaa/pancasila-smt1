@@ -86,15 +86,16 @@ ul li a {
 }
 
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 476px) {
     .home {
         position: fixed;
         display: block;
-        
+        width: 100%;
+        height: 100%;
     }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 476px) {
     .judul {
         
         font-size: 40px;
@@ -102,7 +103,7 @@ ul li a {
     }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 476px) {
     ul li a {
         color: rgba(255, 255, 255, 0.848);
         margin-left: 1111%;
@@ -112,21 +113,21 @@ ul li a {
 
 
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 476px) {
     .img {
         top: 10%;
-        left: -22%;
+        left: -26%;
     }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 476px) {
     .nama {
-        top: 45%;
+        top: 48%;
         left: -30%;
     }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 476px) {
     .img {
         height: 400px;
         width: 400px;
@@ -196,7 +197,7 @@ h3 {
     
 }
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 476px) {
     .Team {
         display: block;
         width: 100px;
@@ -205,7 +206,7 @@ h3 {
     }
 }
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 476px) {
     .gallery {
         position: relative;
         width: 100px;
@@ -213,34 +214,42 @@ h3 {
         padding-left: -40%;
     }
 }
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 476px) {
     .up {
         position: absolute;
         
         margin-top: -80%;
-        margin-left: -150%;
+        margin-left: -130%;
         padding: 0;
         width: 100px;
         height: 100px;
     }
 }
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 476px) {
     .down {
         position: absolute;
         
         margin-top: -80%;
-        margin-left: 95%;
+        margin-left: 80%;
         padding: 0;
         width: 10%;
         height: 10%;
     }
 }
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 476px) {
     .gallery li {
-        width: 200px;
-        height: 200px;
+        width: 150px;
+        height: 160px;
+        
+    }
+}
+
+@media screen and (max-width: 476px) {
+    h3 {
+        font-size: 15px;
+        margin-top: -30%;
         
     }
 }
@@ -317,7 +326,7 @@ h1.box-glass2 {
     padding-top: 100px;
 }
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 476px) {
     .content {
         display: block;
         width: 100%;
@@ -326,22 +335,22 @@ h1.box-glass2 {
     }
 }
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 476px) {
     .box-glass1 {
         height: 200px;
         width: 300px;
         margin-bottom: 5%;
         margin-top: 20%;
-        margin-left: 22%;
+        margin-left: 19%;
     }
 }
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 476px) {
     .box-glass2 {
         height: 200px;
         width: 300px;
         margin-top: 10%;
-        margin-left: 22%;
+        margin-left: 19%;
 
     }
 }
@@ -473,7 +482,7 @@ h1.box-glass2 {
     animation: close .5s .5s forwards;
 }
 
-@media screen and (max-width: 720px){
+@media screen and (max-width: 476px){
     .overlay img {
         width: 80%;
         height:50%;
@@ -481,7 +490,7 @@ h1.box-glass2 {
     }
 }
 
-@media screen and (max-width: 720px){
+@media screen and (max-width: 476px){
     .overlay1 img {
         width: 90%;
         height:50%;
