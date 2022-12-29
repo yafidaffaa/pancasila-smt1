@@ -187,7 +187,7 @@ h3 {
     
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 720px) {
     .Team {
         display: block;
         width: 100px;
@@ -196,7 +196,7 @@ h3 {
     }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 720px) {
     .gallery {
         position: relative;
         width: 100px;
@@ -204,7 +204,7 @@ h3 {
         padding-left: -40%;
     }
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 720px) {
     .up {
         position: absolute;
         
@@ -216,7 +216,7 @@ h3 {
     }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 720px) {
     .down {
         position: absolute;
         
@@ -228,7 +228,7 @@ h3 {
     }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 720px) {
     .gallery li {
         width: 200px;
         height: 200px;
@@ -308,7 +308,7 @@ h1.box-glass2 {
     padding-top: 100px;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 720px) {
     .content {
         display: block;
         
@@ -316,7 +316,7 @@ h1.box-glass2 {
     }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 720px) {
     .box-glass1 {
         height: 300px;
         width: 300px;
@@ -326,7 +326,7 @@ h1.box-glass2 {
     }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 720px) {
     .box-glass2 {
         height: 300px;
         width: 300px;
@@ -462,7 +462,7 @@ h1.box-glass2 {
     animation: close .5s .5s forwards;
 }
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 720px){
     .overlay img {
         width: 80%;
         height:50%;
@@ -470,7 +470,7 @@ h1.box-glass2 {
     }
 }
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 720px){
     .overlay1 img {
         width: 90%;
         height:50%;
