@@ -116,7 +116,7 @@ ul li a {
 @media screen and (max-width: 476px) {
     .img {
         top: 10%;
-        left: -20%;
+        left: -10%;
         height: 300px;
         width: 250px;
     }
@@ -125,7 +125,7 @@ ul li a {
 @media screen and (max-width: 476px) {
     .nama {
         top: 40%;
-        left: -17%;
+        left: -8%;
         font-size: 20px;
     }
 }
@@ -216,8 +216,8 @@ h3 {
     .up {
         position: absolute;
         
-        margin-top: -80%;
-        margin-left: -130%;
+        margin-top: -250%;
+        margin-left: -80%;
         padding: 0;
         width: 100px;
         height: 100px;
@@ -228,8 +228,8 @@ h3 {
     .down {
         position: absolute;
         
-        margin-top: -80%;
-        margin-left: 10%;
+        margin-top: -250%;
+        margin-left: 80%;
         padding: 0;
         width: 10%;
         height: 10%;
@@ -338,8 +338,8 @@ h1.box-glass2 {
         height: 200px;
         width: 200px;
         position: absolute;
-        margin-top: 30%;
-        margin-left: 19%;
+        margin-top: -20%;
+        margin-left: 27%;
         z-index: 999;
     }
 }
@@ -348,8 +348,8 @@ h1.box-glass2 {
     .box-glass2 {
         height: 200px;
         width:200px;
-        margin-top: 80%;
-        margin-left: 19%;
+        margin-top: 40%;
+        margin-left: 27%;
         z-index: 999;
     }
 }
