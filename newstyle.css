@@ -493,7 +493,7 @@ h1.box-glass2 {
 
 @media screen and (max-width: 476px){
     .overlay img {
-        width: 150px;
+        width: 200px;
         height: 50%;
         align-content: stretch;
         margin-left: -0%;
@@ -512,14 +512,16 @@ h1.box-glass2 {
 
 @media screen and (max-width: 476px){
     .overlay .close {
-        left: 60%;
+        left: 80%;
+        top: 10%;
     }
 }
 
 
 @media screen and (max-width: 476px){
     .overlay1 .close1 {
-        left: 70%;
+        left: 80%;
+        top: 10%;
     }
 }
 
