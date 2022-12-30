@@ -86,7 +86,7 @@ ul li a {
 }
 
 
-@media screen and (max-width: 476px) {
+@media screen and (max-width: 320px) {
     .home {
         position: fixed;
         display: block;
@@ -95,15 +95,15 @@ ul li a {
     }
 }
 
-@media screen and (max-width: 476px) {
+@media screen and (max-width: 320px) {
     .judul {
         
-        font-size: 40px;
+        font-size: 30px;
         
     }
 }
 
-@media screen and (max-width: 476px) {
+@media screen and (max-width: 320px) {
     ul li a {
         color: rgba(255, 255, 255, 0.848);
         margin-left: 1111%;
@@ -113,26 +113,24 @@ ul li a {
 
 
 
-@media screen and (max-width: 476px) {
+@media screen and (max-width: 320px) {
     .img {
         top: 10%;
-        left: -26%;
+        left: -23%;
+        height: 300px;
+        width: 250px;
     }
 }
 
-@media screen and (max-width: 476px) {
+@media screen and (max-width: 320px) {
     .nama {
         top: 48%;
-        left: -30%;
+        left: -28%;
+        font-size: 30px;
     }
 }
 
-@media screen and (max-width: 476px) {
-    .img {
-        height: 400px;
-        width: 400px;
-    }
-}
+
 
 
 
@@ -197,7 +195,7 @@ h3 {
     
 }
 
-@media screen and (max-width: 476px) {
+@media screen and (max-width: 320px) {
     .Team {
         display: block;
         width: 100px;
@@ -206,7 +204,7 @@ h3 {
     }
 }
 
-@media screen and (max-width: 476px) {
+@media screen and (max-width: 320px) {
     .gallery {
         position: relative;
         width: 100px;
@@ -214,7 +212,7 @@ h3 {
         padding-left: -40%;
     }
 }
-@media screen and (max-width: 476px) {
+@media screen and (max-width: 320px) {
     .up {
         position: absolute;
         
@@ -226,29 +224,29 @@ h3 {
     }
 }
 
-@media screen and (max-width: 476px) {
+@media screen and (max-width: 320px) {
     .down {
         position: absolute;
         
         margin-top: -80%;
-        margin-left: 80%;
+        margin-left: 10%;
         padding: 0;
         width: 10%;
         height: 10%;
     }
 }
 
-@media screen and (max-width: 476px) {
+@media screen and (max-width: 320px) {
     .gallery li {
-        width: 150px;
-        height: 160px;
+        width: 100px;
+        height: 150px;
         
     }
 }
 
-@media screen and (max-width: 476px) {
+@media screen and (max-width: 320px) {
     h3 {
-        font-size: 15px;
+        font-size: 10px;
         margin-top: -30%;
         
     }
@@ -326,7 +324,7 @@ h1.box-glass2 {
     padding-top: 100px;
 }
 
-@media screen and (max-width: 476px) {
+@media screen and (max-width: 320px) {
     .content {
         display: block;
         width: 100%;
@@ -335,25 +333,34 @@ h1.box-glass2 {
     }
 }
 
-@media screen and (max-width: 476px) {
+@media screen and (max-width: 320px) {
     .box-glass1 {
         height: 200px;
-        width: 300px;
-        margin-bottom: 5%;
-        margin-top: 20%;
+        width: 200px;
+        position: absolute;
+        margin-top: 30%;
         margin-left: 19%;
+        z-index: 999;
     }
 }
 
-@media screen and (max-width: 476px) {
+@media screen and (max-width: 320px) {
     .box-glass2 {
         height: 200px;
-        width: 300px;
-        margin-top: 10%;
+        width:200px;
+        margin-top: 110%;
         margin-left: 19%;
-
+        z-index: 999;
     }
 }
+
+@media screen and (max-width: 320px) {
+    a {
+        font-size: 20px;
+    }
+}
+
+
 
 
 
@@ -423,6 +430,8 @@ h1.box-glass2 {
     animation: close .5s .5s forwards;
 }
 
+
+
 /*---overlay-slide---*/
 
 .overlay1 {
@@ -482,21 +491,29 @@ h1.box-glass2 {
     animation: close .5s .5s forwards;
 }
 
-@media screen and (max-width: 476px){
+@media screen and (max-width: 320px){
     .overlay img {
-        width: 80%;
-        height:50%;
-        margin-left: 10%;
+        width: 150px;
+        height: 50%;
+        align-content: stretch;
+        margin-left: -30%;
     }
 }
 
-@media screen and (max-width: 476px){
+@media screen and (max-width: 320px){
     .overlay1 img {
-        width: 90%;
-        height:50%;
-        margin-left: 10%;
+        width:200px;
+        height: 50%;
+        align-content: stretch;
+        margin-left: -30%;
     }
 }
+
+
+
+
+
+
 
 
 /*animasi*/
